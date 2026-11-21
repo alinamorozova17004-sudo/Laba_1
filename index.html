@@ -370,6 +370,7 @@
         const cardsContainer = document.getElementById('cardsContainer');
         const loadMoreBtn = document.getElementById('loadMoreBtn');
         let visibleCount = 0;
+        loadMoreBtn.style.display = 'flex'; 
         const PORTION = 12; 
 
         function renderCards() {
@@ -386,7 +387,7 @@
                 cardsContainer.appendChild(card);
             });
             visibleCount += next.length;
-            if (visibleCount >= screenshots.length) { loadMoreBtn.style.display = 'none'; }
+           // if (visibleCount >= screenshots.length) { loadMoreBtn.style.display = 'none'; }
         }
         loadMoreBtn.addEventListener('click', renderCards);
         renderCards();
