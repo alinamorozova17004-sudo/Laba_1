@@ -191,7 +191,7 @@
         </div>
     </div>
 
-    <!-- ЕДИНСТВЕННЫЙ И ПРАВИЛЬНЫЙ ТЕГ SCRIPT -->
+   
     <script>
         let isLoggedIn = false;
         let currentUserName = '';
@@ -252,7 +252,7 @@
             const copyBtn = document.getElementById('addCopyBtn');
             if (isChecked) {
                 copyBtn.style.display = 'flex';
-                showToast(); // <--- ВОТ ЭТА СТРОЧКА ВЫЗЫВАЕТ УВЕДОМЛЕНИЕ
+                showToast(); //  ВОТ ЭТА СТРОЧКА ВЫЗЫВАЕТ УВЕДОМЛЕНИЕ
             } else {
                 copyBtn.style.display = 'none';
             }
@@ -366,7 +366,7 @@
         const cardsContainer = document.getElementById('cardsContainer');
         const loadMoreBtn = document.getElementById('loadMoreBtn');
         let visibleCount = 0;
-        const PORTION = 8; 
+        const PORTION = 12; 
 
         function renderCards() {
             const next = screenshots.slice(visibleCount, visibleCount + PORTION);
