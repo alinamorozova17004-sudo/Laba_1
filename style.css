@@ -126,11 +126,11 @@ header {
    3. ГЛАВНАЯ СТРАНИЦА (КАРТОЧКИ)
    ========================================= */
 .page-header {
-   margin: 40px 0 30px 0; 
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   width: 100%
+    margin: 40px 0 30px 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 h1 {
