@@ -23,7 +23,7 @@ main.container {
 
 /* Вот этот класс отвечает за центрирование по центру! */
 .container {
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 40px;
     width: 100%;
